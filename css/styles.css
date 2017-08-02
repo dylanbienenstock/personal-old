@@ -17,8 +17,13 @@
 }
 
 .name {
-	color: #4B4B4B;
+	color: #CCC;
 	letter-spacing: 8px;
 	font-size: 64px;
 	font-weight: 600;
+}
+
+.title {
+	color: #666;
+	font-size: 32px;
 }
