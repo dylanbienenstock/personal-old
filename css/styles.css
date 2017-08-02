@@ -18,12 +18,14 @@
 
 .name {
 	color: #CCC;
-	letter-spacing: 8px;
-	font-size: 64px;
+	letter-spacing: 0.5vw;
+	font-size: 4vw;
 	font-weight: 600;
 }
 
 .title {
 	color: #666;
-	font-size: 32px;
+	font-size: 1.3vw;
+
+	font-family: 'Source Code Pro', monospace;
 }
