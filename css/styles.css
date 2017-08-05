@@ -6,6 +6,10 @@
 	font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
+#vignette {
+
+}
+
 .circular {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -38,13 +42,16 @@
 
 #down-chevron-container {
 	position: absolute;
-	top: 85vh;
+	top: 90vh;
 	left: 0;
 	width: 100%;
 	text-align: center;
 }
 
 #down-chevron {
+	position: relative;
+	top: 0.2vh;
+
 	width: 3vh;
 	height: 5vh;
 
@@ -53,7 +60,7 @@
 
 #face-container {
 	display: inline-block;
-	padding: 0.75vw;
+	padding: 0.5vw;
 	background-color: #FFF;
 
 	font-size: 0;
@@ -70,12 +77,15 @@
 
 #face-text-container {
 	display: inline-block;
-	width: 50vw;
-	padding-left: 0.75vw;
-	padding-bottom: 0.75vw;
+	width: 35vw;
+	padding-left: 0.5vw;
+	padding-bottom: 0.5vw;
 }
 
 #face-text {
 	color: #666;
-	font-size: 1.5vw;
+	font-size: 1vw;
+	font-weight: 300;
+
+	font-family: 'Open Sans', sans-serif;
 }

@@ -51,9 +51,8 @@ function autoScroll() {
 }
 
 function centerElements() {
-	
 	$face = $("#face");
-	$face.height(Math.ceil($("#face-text-container").height() / 2) * 2);
+	$face.height(Math.floor($("#face-text-container").height() / 2) * 2);
 	$face.width($face.height());
 
 	$(".content").each(function() {
