@@ -2,8 +2,6 @@
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 	overflow: hidden;
-
-	
 }
 
 .container {
@@ -21,15 +19,74 @@
 .name {
 	color: #CCC;
 	letter-spacing: 0.5vw;
-	font-size: 4vw;
+	font-size: 5vw;
 	font-weight: 600;
 }
 
 .title {
 	color: #666;
-	font-size: 1.3vw;
+	font-size: 1.75vw;
 
 	font-family: "Source Code Pro", monospace;
+}
+
+#down-chevron-container {
+	position: absolute;
+	top: 85vh;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#down-chevron {
+	width: 3vh;
+	height: 5vh;
+
+	cursor: pointer;
+}
+
+#face-container {
+	display: inline-block;
+	padding: 0.75vw;
+	background-color: #FFF;
+
+	font-size: 0;
+
+	/*border: 1px solid #DDD;*/
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+#face {
+	height: 100%;
+
+	font-size: 0;
+
+/*	border: 2px solid #CCC;*/
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#face-text-container {
+	display: inline-block;
+	width: 50vw;
+	padding-left: 0.75vw;
+	padding-bottom: 0.75vw;
+}
+
+#face-text {
+	color: #666;
+	font-size: 1.5vw;
+
+	/*font-family: "Source Code Pro", monospace;*/
+	font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 /*.eteru-container {

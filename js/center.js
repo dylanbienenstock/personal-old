@@ -15,15 +15,10 @@ $(function() {
 		$(window).scrollTop(0);
 	}, 0);
 
-	$(".content").each(function() {
-		$(this).center();
-	});
+	centerElements();
 
 	$(window).resize(function() {
-		$(".content").each(function() {
-			$(this).center();
-		});
-
+		centerElements();
 		autoScroll();
 	});
 
@@ -53,4 +48,15 @@ function autoScroll() {
 	else {
 		$("body").stop().animate({ scrollTop: Math.round($(window).scrollTop() / $(window).height()) * $(window).height() }, 1000, "easeOutBounce");
 	}
+}
+
+function centerElements() {
+	
+	$face = $("#face");
+	$face.height(Math.ceil($("#face-text-container").height() / 2) * 2);
+	$face.width($face.height());
+
+	$(".content").each(function() {
+		$(this).center();
+	});
 }
